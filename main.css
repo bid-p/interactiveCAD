@@ -10,12 +10,17 @@ body {
 /*    padding: 2em 2em 4em;*/
 }
 
-div.header {
+div.header, h2 {
             font-family: "helvetica";
             text-align: center;
 }
         
 div.XRFrame {
-            align: center;
-    left: 50%;
+            margin: auto;
+            min-width: 1363px;
+            width: 50%;
+}
+
+div.spacer {
+    padding-top: 1%;
 }
